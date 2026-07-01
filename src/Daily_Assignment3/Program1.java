@@ -5,7 +5,12 @@ public class Program1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int marks=77;
-		if(marks>=90)
+		
+		if(marks<0 || marks>100)
+		{
+			System.out.println("invalid marks");
+		}
+		else if(marks>=90)
 		{
 			System.out.println("Your grade is A");
 		}
